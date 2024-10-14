@@ -5,21 +5,25 @@
 Implementation of Pseudorandom Number Generation Using Standard library
 
 # Algorithm:
-Import the secrets module:
+Step 1: Import the secrets module:
 
-This module provides cryptographically secure random functions.
-Generate a secure random integer:
+    This module provides cryptographically secure random functions.
 
-Use secrets.randbelow(n) to get a random integer between 0 and n-1.
-Generate a secure random number with a specific bit length:
+Step 2: Generate a secure random integer:
 
-Use secrets.randbits(bit_length) to generate a random number with a given number of bits.
-Generate a secure random token (hexadecimal):
+    Use secrets.randbelow(n) to get a random integer between 0 and n-1.
+    
+Step 3: Generate a secure random number with a specific bit length:
 
-Use secrets.token_hex(nbytes) to generate a secure random token in hex format. The nbytes parameter specifies the number of bytes, and the result will be a string with twice that number of hex characters.
-Display or use the generated random values:
+    Use secrets.randbits(bit_length) to generate a random number with a given number of bits.
+    
+Step 4: Generate a secure random token (hexadecimal):
 
-Print or use the generated values for your cryptographic needs.
+    Use secrets.token_hex(nbytes) to generate a secure random token in hex format. The nbytes parameter specifies the number of bytes, and the result will be a string with twice that number of hex characters.
+    
+Step 5: Display or use the generated random values:
+
+    Print or use the generated values for your cryptographic needs.
 
 # Program
 ```
