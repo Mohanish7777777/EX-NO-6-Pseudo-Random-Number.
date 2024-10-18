@@ -30,13 +30,14 @@ random_bits = secrets.randbits(128)
 
 random_token = secrets.token_hex(16)
 
-print("EX-NO-6-Pseudo-Random-Number by Preethi M 212222100037")
+print("EX-NO-6-Pseudo-Random-Number by Mohanish K 212222100028")
 print("Secure Random Integer (0 to 9):", random_int)
 print("Secure 128-bit Random Number:", random_bits)
 print("Secure Random Token (32 characters hex):", random_token)
 ```
 # Output:
-![image](https://github.com/user-attachments/assets/b87c188a-2165-4b6d-aa55-cc9fab558477)
+![image](https://github.com/user-attachments/assets/c7bc064f-5883-47f2-843b-614656a4a362)
+
 
 # Result
 Thus Pseudorandom Number Generation Using Standard library has been executed successfully.
